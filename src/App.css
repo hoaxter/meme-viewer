@@ -1,0 +1,43 @@
+/* Exactly 4 cards per row */
+main .grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+  gap: 1.25rem;
+}
+
+/* Apply card styles to <a> because your JSX uses <a> as the card */
+main .grid a {
+  border: 1px solid #d1d5db;              /* border-gray-300 */
+  border-radius: 12px;                    /* rounded-2xl */
+  background: white;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12); /* shadow-md */
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 360px;                           /* match your Tailwind height */
+  padding: 12px;                           /* p-4 */
+  transition: box-shadow 0.2s ease;
+}
+
+/* Hover effect (shadow-lg) */
+main .grid a:hover {
+  box-shadow: 0 6px 16px rgba(0,0,0,0.18);
+}
+
+/* Image inside the card */
+main .grid a img {
+  width: 100%;
+  height: 250px;
+  object-fit: contain;
+  display: block;
+}
+
+/* Title inside card */
+main .grid a p {
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 15px;
+  text-align: center;
+  color: #1f2937; /* text-gray-800 */
+}
