@@ -1,8 +1,4 @@
-Here is the **entire README fully in Markdown**, no explanations — just clean Markdown you can paste directly into `README.md`:
 
----
-
-````markdown
 # 🎉 Meme Template Viewer
 
 A fast, clean, and responsive **Meme Template Viewer** built using **React + Tailwind CSS**.  
