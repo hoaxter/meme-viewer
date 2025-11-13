@@ -141,11 +141,3 @@ Developed by **Nitin** using React + Tailwind CSS.
 
 ```
 
----
-
-If you want, I can create:
-
-📌 GitHub badges  
-🎨 A preview banner image  
-🚀 Deployment steps for **Vercel** or **Netlify**
-```
